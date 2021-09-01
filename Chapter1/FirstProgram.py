@@ -1,4 +1,4 @@
-#Changed 
+#Changed
 
 print('Hello, world!')
 print('What is your name?') #Ask for their name
