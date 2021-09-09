@@ -14,6 +14,6 @@ def displayInventory(bagOfStuff):
 inventory = {'Flechas': 15, 'Pacote de Aventureiro': 1, 'Corda': 2, 'Adaga': 1,
              'Moedas': 100, 'Poção de vida': 3}
 dragonLoot = ['Moedas', 'Moedas', 'Moedas', 'Rubi', 'Osso', 'Osso']
-newInv = addToInventory(inventory, dragonLoot)
+addToInventory(inventory, dragonLoot)
 displayInventory(inventory)
 
