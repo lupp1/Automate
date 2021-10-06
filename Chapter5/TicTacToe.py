@@ -12,7 +12,7 @@ turn = 'X'
 def playerMove():
     for i in range(9):
         global turn
-        printBoard(theBoard)
+        printBoard ( theBoard )
         print(f'Vez de {turn}. Mover em qual espaço?')
         move = input('Escolha dentre top-L, mid-M, etc:')
         theBoard[move] = turn
@@ -20,5 +20,4 @@ def playerMove():
             turn = 'O'
         else:
             turn = 'X'
-printBoard(theBoard)
 playerMove()

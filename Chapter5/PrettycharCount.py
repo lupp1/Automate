@@ -1,5 +1,5 @@
 from pprint import pprint
-mensagem = 'Hoje eu vou estudar, andar de bicicleta e me divertir bastante.'
+mensagem = 'Vini'
 count = {}
 
 for char in mensagem:
