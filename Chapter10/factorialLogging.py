@@ -9,7 +9,8 @@ def factorial(n):
         total *= i
         logging.debug('i is ' + str(i) + ', total is ' + str(total))
     logging.debug('End of factorial (%s)' % (n))
-    return 'Gutsavo'
-factorial(5)
+    return total
+
+print(factorial(5))
 logging.debug('End of program')
     

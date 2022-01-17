@@ -1,5 +1,5 @@
-data = [['maçãs', 'bananas', 'laranjas', 'mangas'], ['Gustavo', 'João', 'Felipe', 'Pedro'],
-        ['gatos', 'cachorros', 'pássaros', 'elefante']]
+data = [['apples', 'bananas', 'oranges', 'mango'], ['John', 'Hobart', 'William', 'Gustavo'],
+        ['cats', 'dogs', 'birds', 'elephant'],]
 def printTable(tableData):
     colWidths = [0] * len(tableData)
     for y in range(int(len(tableData[0]))):
