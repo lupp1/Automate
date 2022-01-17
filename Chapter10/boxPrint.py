@@ -16,3 +16,4 @@ for sym, w, h in (('*', 4, 4), ('0', 20, 5), ('x', 1, 3), ('ZZ', 3,  3)):
     except Exception as err:
         print('An exception happened:', str(err))
 
+#
